@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#slideshow {
+    width: 512px; /* Adjust as needed */
+    height: 768px; /* Adjust as needed */
+    background: no-repeat center center;
+    background-size: cover;
+    transition: background-image 1.2s ease-in-out;
+}
